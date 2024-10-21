@@ -9,7 +9,7 @@ mongoose.connect(MONGOURI,{
     useUnifiedTopology:true
 })
 mongoose.connection.on('connected',()=>{
-    console.log("Connected to 'MongoDB' successfully");
+    console.log("Connected to \'MongoDB\' successfully");
 })
 mongoose.connection.on('error',(err)=>{
     console.log("err connnecting",err);
